@@ -1,0 +1,41 @@
+.ListProductInShop__container{
+
+}
+
+.ListProductInShop__wrapper{
+    margin: 30px 30px;
+}
+
+.ListProductInShop__listProd{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ListProductInShop__pagination{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ListProductInShop__pagination-item{
+    display: inline-block;
+    border: 1px solid #111111 !important;
+    color: #111111;
+    padding: 0;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 10px 10px 0 !important;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ListProductInShop__pagination-item.active{
+    background-color: red;
+}

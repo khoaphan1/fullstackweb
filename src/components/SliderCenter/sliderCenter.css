@@ -1,0 +1,92 @@
+
+
+.carousel__container {
+    max-width: 550px;
+    margin: auto;
+}
+  
+  /* gives us the illusion of a "centered" slide */
+.carousel__slider {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+  
+  /* gives us the illusion of spaces between the slides */
+.carousel__inner-slide {
+    width: calc(100% - 20px);
+    height: calc(100% - 10px);
+    right: -10px;
+    top: 10px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    width: 50px;
+}
+
+.carousel__back-button{
+    font-size: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+    padding: 10px;
+    line-height: 1;
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+    z-index: 1;
+    position: absolute;
+    transition: all .3s;
+    left: 32px;
+    border: 2px solid #666;
+}
+
+.carousel__next-button{
+    font-size: 20px;
+    top: 55%;
+    transform: translateY(-50%);
+    padding: 10px;
+    line-height: 1;
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+    z-index: 1;
+    position: absolute;
+    transition: all .3s;
+    right: 32px;
+    border: 2px solid #666;
+}
+
+.slider-center{
+    position: relative;
+    background: #f5f5f5;
+    padding: 80px 0;
+}
+
+.center-slider-img{
+    height: 100%;
+}
+
+.slider-center-text{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.center-slider-name{
+    position: absolute;
+    bottom: -10px;
+}
+
+.center-slider-room{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.center-slider-title{
+
+}

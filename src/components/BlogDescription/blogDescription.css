@@ -1,0 +1,134 @@
+.BlogDesc{
+    padding: 60px 80px;
+    background-color: #fff;
+}
+
+.BlogDesc__Header{
+    position: relative;
+}
+
+.BlogDesc__img{
+    width: 100%;
+}
+
+.BlogDesc__Title{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+.BlogDesc__Name{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: unset;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.BlogDesc__info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogDesc__author{
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding-left: 5px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.BlogDesc__time{
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 600;
+    padding-left: 5px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.BlogDesc__totalcmt{
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 0;
+    font-weight: 700;
+    padding-left: 5px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.BlogDesc__content{
+    margin-top: 30px;
+    font-size: 14px;
+    color: #a8a8a8;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+/* TABLET WIDTH */
+@media (max-width: 600px){
+    .BlogDesc{
+        padding: 40px 10px !important;
+        background-color: #fff;
+    }
+
+    .BlogDesc__Name {
+        font-size: 16px;
+    }
+
+    .BlogDesc__author {
+        font-size: 8px;
+        margin-right: 0;
+    }
+
+    .BlogDesc__time {
+        font-size: 8px;
+        margin-right: 0;
+    }
+
+    .BlogDesc__totalcmt {
+        font-size: 8px;
+        margin-right: 0;
+    }
+    
+}
+
+/* TABLET HEIGHT */
+@media (max-width: 820px){
+    .BlogDesc{
+        padding: 60px 40px;
+        background-color: #fff;
+    }
+}
+
+/* TABLET BIG WIDTH */
+@media (max-width: 768px){
+    
+}
+
+/* TABLET BIG HEIGHT */
+@media (max-width: 1024px){
+    
+}
+
+
+/* DESKTOP */
+@media (max-width: 1025px){
+    
+}
+
+
